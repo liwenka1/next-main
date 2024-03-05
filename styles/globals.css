@@ -7,9 +7,3 @@ body,
 :root {
   height: 100%;
 }
-
-.box {
-  width: 200px;
-  height: 200px;
-  background: #fafafa;
-}
