@@ -16,7 +16,7 @@ const config: Config = {
       },
       animation: {
         hero: 'hero 2.7s cubic-bezier(.65,.05,.36,1) forwards',
-				fade:'fade 2.7s cubic-bezier(.65,.05,.36,1) forwards'
+        fade: 'fade 2.7s cubic-bezier(.65,.05,.36,1) forwards'
       },
       keyframes: {
         hero: {
