@@ -7,3 +7,23 @@ body,
 :root {
   height: 100%;
 }
+
+.home {
+  @apply relative m-auto flex h-full w-full max-w-screen-lg flex-col items-center justify-center gap-12 px-6 py-4;
+}
+
+.main {
+  @apply relative aspect-video w-full overflow-hidden rounded-3xl bg-zinc-50 dark:bg-zinc-950;
+}
+
+.refersh {
+  @apply animate-hero absolute bottom-0 left-0 right-0 top-1/2 aspect-square -translate-y-1/2 translate-x-0 bg-imagehero bg-sizehero bg-positionhero bg-no-repeat;
+}
+
+.info {
+  @apply grid h-full w-full grid-cols-5 place-content-center place-items-center sm:grid-cols-8;
+}
+
+.footer {
+  @apply flex h-12 w-full items-center justify-between;
+}

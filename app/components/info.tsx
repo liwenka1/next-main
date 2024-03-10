@@ -1,32 +1,14 @@
-'use client'
-
-import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 const Info = () => {
   return (
-    <div className="flex flex-row">
-      <motion.div
-        animate={{ opacity: [0, 1] }}
-        transition={{
-          duration: 2,
-          ease: 'easeInOut',
-          times: [0, 0.2, 0.5, 0.8, 1],
-          repeatDelay: 1
-        }}
-      >
-        头像
-      </motion.div>
-      <motion.div
-        animate={{ opacity: [0, 1] }}
-        transition={{
-          duration: 2,
-          ease: 'easeInOut',
-          times: [0, 0.2, 0.5, 0.8, 1],
-          repeatDelay: 1
-        }}
-      >
+    <div className="info">
+      <div className="animate-fade relative col-start-2 sm:col-start-3">
+        <Image className="rounded-2xl" src="/avatar.png" width={500} height={500} alt="avatar" />
+      </div>
+      <h3 className="animate-fade relative col-start-4 whitespace-nowrap font-mono text-5xl font-semibold text-zinc-950 sm:col-start-6">
         hello world
-      </motion.div>
+      </h3>
     </div>
   )
 }

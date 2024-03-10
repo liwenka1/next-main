@@ -13,6 +13,34 @@ const config: Config = {
       },
       backgroundPosition: {
         positionhero: '100% 0,0 100%'
+      },
+      animation: {
+        hero: 'hero 2.7s cubic-bezier(.65,.05,.36,1) forwards',
+				fade:'fade 2.7s cubic-bezier(.65,.05,.36,1) forwards'
+      },
+      keyframes: {
+        hero: {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(-50%) translateX(-100%) scale(4) rotate(148deg)'
+          },
+          '33.33%': {
+            opacity: '1',
+            transform: 'translateY(-50%) translateX(0) scale(4) rotate(148deg)'
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(-50%) translateX(0) scale(1) rotate(0)'
+          }
+        },
+        fade: {
+          '0%': {
+            opacity: '0'
+          },
+          '100%': {
+            opacity: '1'
+          }
+        }
       }
     }
   },

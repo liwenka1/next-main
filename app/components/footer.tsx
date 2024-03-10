@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="flex h-12 w-full items-center justify-between">
+    <footer className="footer">
       <div>vvenkai</div>
       <div className="flex gap-3">
         <span>Github</span>
