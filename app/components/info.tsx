@@ -9,7 +9,7 @@ const Info = () => {
         <Image className="rounded-2xl" src={SITE.avatar} width={500} height={500} alt="avatar" />
       </div>
       <h3 className="relative col-start-4 animate-fade whitespace-nowrap font-mono text-5xl font-semibold text-zinc-950 sm:col-start-6">
-        {SITE.title}
+        {SITE.headline}
       </h3>
     </div>
   )

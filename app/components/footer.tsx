@@ -22,7 +22,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="flex items-center justify-center gap-4">
         <ModeToggle />
-        <span className="font-mono font-semibold">{SITE.name}</span>
+        <span className="font-mono font-semibold">{SITE.title}</span>
       </div>
       <div className="flex gap-3">
         {NAVS.map((nav) => (

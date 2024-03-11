@@ -1,7 +1,7 @@
 export const SITE = {
-  title: 'hello world',
+  headline: 'hello world',
   avatar: '/avatar.png',
-  name: 'vvenkai',
+  title: 'VVenKai',
   description: '一个破网站'
 } as const
 
