@@ -28,6 +28,7 @@ const Footer = () => {
         {NAVS.map((nav) => (
           <a
             className="group flex cursor-pointer flex-row items-center justify-center px-2 py-1"
+            target="_blank"
             href={nav.href}
             key={nav.name}
           >
