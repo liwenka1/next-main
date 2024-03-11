@@ -22,12 +22,12 @@ const Footer = () => {
     <footer className="footer">
       <div className="flex items-center justify-center gap-4">
         <ModeToggle />
-        <span>{SITE.name}</span>
+        <span className="font-mono font-semibold">{SITE.name}</span>
       </div>
       <div className="flex gap-3">
         {NAVS.map((nav) => (
           <a
-            className="group flex cursor-pointer flex-row items-center justify-center px-2 py-1"
+            className="group flex cursor-pointer flex-row items-center justify-center px-2 py-1 font-mono font-semibold transition-all"
             target="_blank"
             href={nav.href}
             key={nav.name}
