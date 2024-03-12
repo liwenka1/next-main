@@ -26,6 +26,12 @@ body,
 
 .info {
   @apply grid h-full w-full grid-cols-5 place-content-center place-items-center sm:grid-cols-8;
+  .avatar {
+    @apply relative col-start-2 -rotate-90 animate-fade overflow-hidden rounded-2xl sm:col-start-3 sm:rotate-0;
+  }
+  .headline {
+    @apply relative col-start-4 -rotate-90 animate-fade whitespace-nowrap font-mono text-lg font-semibold text-zinc-950 sm:col-start-6 sm:rotate-0 sm:text-5xl;
+  }
 }
 
 .footer {
