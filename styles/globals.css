@@ -17,11 +17,11 @@ body,
 }
 
 .main {
-  @apply pointer-events-none relative aspect-video w-full overflow-hidden rounded-3xl;
+  @apply pointer-events-none relative aspect-square w-full rotate-90 overflow-hidden rounded-3xl sm:aspect-video sm:rotate-0;
 }
 
 .refersh {
-  @apply animate-hero absolute bottom-0 left-0 right-0 top-1/2 aspect-square -translate-y-1/2 translate-x-0 bg-imagehero bg-sizehero bg-positionhero bg-no-repeat;
+  @apply absolute bottom-0 left-0 right-0 top-1/2 aspect-square -translate-y-1/2 translate-x-0 animate-hero bg-imagehero bg-sizehero bg-positionhero bg-no-repeat;
 }
 
 .info {
@@ -29,5 +29,5 @@ body,
 }
 
 .footer {
-  @apply flex h-12 w-full items-center justify-between;
+  @apply flex h-12 w-full flex-col items-center justify-between sm:flex-row;
 }

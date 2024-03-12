@@ -5,10 +5,10 @@ import Image from 'next/image'
 const Info = () => {
   return (
     <div className="info">
-      <div className="relative col-start-2 animate-fade sm:col-start-3">
+      <div className="relative col-start-2 -rotate-90 animate-fade sm:col-start-3 sm:rotate-0">
         <Image className="rounded-2xl" src={SITE.avatar} width={500} height={500} alt="avatar" />
       </div>
-      <h3 className="relative col-start-4 animate-fade whitespace-nowrap font-mono text-5xl font-semibold text-zinc-950 sm:col-start-6">
+      <h3 className="relative col-start-4 -rotate-90 animate-fade whitespace-nowrap font-mono text-lg font-semibold text-zinc-950 sm:col-start-6 sm:rotate-0 sm:text-5xl">
         {SITE.headline}
       </h3>
     </div>
