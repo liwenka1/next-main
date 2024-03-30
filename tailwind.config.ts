@@ -5,6 +5,10 @@ const config: Config = {
   content: ['./components/**/*.{js,ts,jsx,tsx,mdx}', './app/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
+      colors: {
+        text: 'var(--text)',
+        bg: 'var(--bg)'
+      },
       backgroundImage: {
         imagehero:
           'conic-gradient(from 180deg at 50% 70% in oklch longer hue, oklch(14.08% 0.004 285.82), oklch(98.51% 0 0)), conic-gradient(at 50% 30% in oklch longer hue, oklch(98.51% 0 0), oklch(14.08% 0.004 285.82));'
