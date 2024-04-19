@@ -1,3 +1,3 @@
 # next-main
 
-技术栈 next
+技术栈 next + tailwindcss
